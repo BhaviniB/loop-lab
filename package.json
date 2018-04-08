@@ -10,7 +10,8 @@
   "license": "MIT",
   "dependencies": {
     "bootstrap": "^4.0.0-alpha.6",
-    "font-awesome": "^4.7.0"
+    "font-awesome": "^4.7.0",
+    "node-sass": "^4.8.3"
   },
   "devDependencies": {
     "browser-sync": "^2.18.13",
