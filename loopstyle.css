@@ -32,6 +32,14 @@ body {
   opacity: 0.8;
 }
 
+#home-section .fa {
+  color: #008ed6;
+  background: #fff;
+  padding: 4px;
+  border-radius: 5px;
+  font-size: 30px;
+}
+
 @media (max-width: 576px) {
   nav .container {
     width: 100%;

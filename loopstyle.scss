@@ -1,6 +1,7 @@
 $bg-color:#333;
 $font-color:#fff;
 $primary-color:#008ed6;
+$landing-icon-size:30px;
 $dark-overlay:rgba(0,0,0,0.7);
 
 body{
@@ -36,6 +37,13 @@ body{
     opacity:0.8;
   }
 
+  .fa{
+    color:$primary-color;
+    background:#fff;
+    padding:4px;
+    border-radius:5px;
+    font-size:$landing-icon-size;
+  }
 }
 
 @media(max-width:576px){
