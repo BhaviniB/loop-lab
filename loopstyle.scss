@@ -45,6 +45,17 @@ body{
     font-size:$landing-icon-size;
   }
 }
+#explore-section
+{
+.fa
+{
+color:#fff;
+background:#333;
+padding:4px;
+border-radius:5px;
+font-size:$landing-icon-size;
+}
+}
 
 @media(max-width:576px){
   nav .container{
