@@ -41,7 +41,7 @@
       <div class="home-inner">
         <div class="container">
           <div class="row">
-            <div class="col-md-8">
+            <div class="col-md-8 d-none d-md-block">
    <h1 class="display-4">Build <strong>social profiles</strong> and gain revenue and <atrong>profits</strong></h1>
              
     <div class="d-flex flex-row">
@@ -265,7 +265,38 @@
     </div>
   </footer>
 
-			
+			 <!-- CONTACT MODAL -->
+  <div class="modal fade" id="contactModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="contactModalLabel">Contact Us</h5>
+          <button class="close" data-dismiss="modal"><span>&times;</span></button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" class="form-control" id="name">
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" class="form-control" id="email">
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea class="form-control" id="message"></textarea>
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button class="btn btn-primary btn-block">Submit</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
 
   <script src="src/js/jquery.min.js"></script>
   <script src="src/js/tether.min.js"></script>

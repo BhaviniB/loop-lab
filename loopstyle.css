@@ -9,7 +9,7 @@ body {
 }
 
 #home-section {
-  background: url("home.jpg") no-repeat center top fixed;
+  background: url("../img/home.jpg") no-repeat center top fixed;
   background-size: cover;
   background-attachment: fixed;
   min-height: 700px;
@@ -54,6 +54,10 @@ body {
   padding: 4px;
   border-radius: 5px;
   font-size: 30px;
+}
+
+.modal {
+  color: #333;
 }
 
 @media (max-width: 576px) {
